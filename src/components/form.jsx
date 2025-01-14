@@ -29,7 +29,7 @@ const UserForm = () => {
 
       try {
         // Sending POST request to the API
-        const response = await fetch(`http://margros-server/api/register`, {
+        const response = await fetch(`http://margros-server-ltja38lqd-saiisbacks-projects.vercel.app/api/register`, {
           method: "POST",
           headers: {
             "Content-Type": "application/json",
